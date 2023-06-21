@@ -1,0 +1,52 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+} 
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Bebas Neue', sans-serif;
+	color:white;
+}
+p{
+	color:white;
+	font-family: 'Philosopher', sans-serif;
+}
+a{
+	color:white;
+	font-family: 'Philosopher', sans-serif;
+}
+i{
+	color:white;
+}
+.bg-img{
+	background-image:linear-gradient(#0d0ba891, #0d0ba891), url('../image/corp-why.jpg');
+}
+.ip-form input[type='text'],.ip-form input[type='email'],.ip-form input[type='number']{
+	width:100%;
+	border:none;
+	border-bottom:1px solid gray;
+}
+.ip-form input[type='text']:focus,.ip-form input[type='email']:focus,.ip-form input[type='number']:focus{
+	outline:none;
+}
+.ip-form-txt textarea{
+	width:100%;
+	border:none;
+	border-bottom:1px solid gray;
+}
+.ip-form-txt textarea:focus{
+	outline:0;
+}
+.app-btn a{
+	background-color:#0d0ba891;
+	color:white;
+	border-radius:25px;
+	padding:15px 15px;
+	font-size:12px;
+}
+.app-btn a:hover{
+	background-color:white;
+	color:#0d0ba891; 
+	transition:all .5s ease;
+	font-weight:bolder;
+}
